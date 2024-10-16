@@ -1,6 +1,6 @@
 -------- atividade 1----------
 
---USE --
+--USE bd_SpTrans--
 CREATE TRIGGER tgAtualizaPontuacaoMotorista
 ON tbMultas
 AFTER INSERT
