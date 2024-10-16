@@ -1,4 +1,6 @@
 -------- atividade 1----------
+
+--USE --
 CREATE TRIGGER tgAtualizaPontuacaoMotorista
 ON tbMultas
 AFTER INSERT
@@ -24,7 +26,7 @@ BEGIN
         )
     ) >= 20 
 	
-		PRINT ('O motorista pode ter a habilitação suspensa porque tem 20 pontos ou mais.')
+		PRINT ('O motorista pode ter a habilitaÃ§Ã£o suspensa porque tem 20 pontos ou mais.')
 		
 		ELSE 
 
